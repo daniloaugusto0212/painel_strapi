@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pagina_redes_sociais",
+  "info": {
+    "displayName": "redesSociais",
+    "icon": "socks"
+  },
+  "options": {},
+  "attributes": {
+    "redes": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn",
+        "Whatsapp"
+      ],
+      "default": "Facebook"
+    },
+    "url": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

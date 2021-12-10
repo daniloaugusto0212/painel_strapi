@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pagina_listas",
+  "info": {
+    "displayName": "lista",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tituloLista": {
+      "type": "string"
+    },
+    "subtituloLista": {
+      "type": "string"
+    },
+    "descricaoLista": {
+      "type": "text"
+    },
+    "imagemLista": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

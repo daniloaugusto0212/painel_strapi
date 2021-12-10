@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_pagina_titulo_secaos",
+  "info": {
+    "displayName": "tituloSecao",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tituloSecao": {
+      "type": "string"
+    },
+    "subtituloSecao": {
+      "type": "text"
+    },
+    "descricaoSecao": {
+      "type": "text"
+    },
+    "listaSecao": {
+      "displayName": "lista",
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.lista"
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
