@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pagina_descricaos",
+  "info": {
+    "displayName": "link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descricao": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
