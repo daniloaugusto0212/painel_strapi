@@ -23,11 +23,17 @@
       "component": "pagina.lista"
     },
     "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.descricao"
     }
   }
 }

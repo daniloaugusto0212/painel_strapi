@@ -14,6 +14,13 @@
     "url": {
       "type": "string",
       "required": true
+    },
+    "imagemLink": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
