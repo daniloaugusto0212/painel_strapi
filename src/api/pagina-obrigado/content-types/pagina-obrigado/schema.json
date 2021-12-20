@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_obrigados",
+  "info": {
+    "singularName": "pagina-obrigado",
+    "pluralName": "pagina-obrigados",
+    "displayName": "paginaObrigado",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "richtext"
+    },
+    "subtitulo": {
+      "type": "richtext"
+    },
+    "linkWhatsapp": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
