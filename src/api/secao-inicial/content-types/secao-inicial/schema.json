@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_inicials",
+  "info": {
+    "singularName": "secao-inicial",
+    "pluralName": "secao-inicials",
+    "displayName": "SecaoInicial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "richtext"
+    },
+    "subtitulo": {
+      "type": "richtext"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.descricao"
+    }
+  }
+}

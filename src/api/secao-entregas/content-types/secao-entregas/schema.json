@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_entregases",
+  "info": {
+    "singularName": "secao-entregas",
+    "pluralName": "secao-entregases",
+    "displayName": "SecaoEntregas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "richtext"
+    },
+    "listaEntregas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.lista"
+    }
+  }
+}

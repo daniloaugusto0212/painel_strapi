@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_lancamentos",
+  "info": {
+    "singularName": "secao-lancamento",
+    "pluralName": "secao-lancamentos",
+    "displayName": "secaoLancamento",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "richtext"
+    },
+    "subtitulo": {
+      "type": "richtext"
+    },
+    "descricao": {
+      "displayName": "paragrafoDescricao",
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.paragrafo-descricao"
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.descricao"
+    },
+    "backgroundDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "backgroundMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

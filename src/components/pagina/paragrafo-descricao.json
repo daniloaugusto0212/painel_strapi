@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pagina_paragrafo_descricaos",
+  "info": {
+    "displayName": "paragrafoDescricao",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "paragrafos": {
+      "type": "richtext"
+    }
+  }
+}

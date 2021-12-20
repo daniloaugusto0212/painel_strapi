@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_servicos",
+  "info": {
+    "singularName": "secao-servico",
+    "pluralName": "secao-servicos",
+    "displayName": "secaoServico",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "servicos": {
+      "displayName": "listaSevicos",
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.lista-sevicos"
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.descricao"
+    }
+  }
+}

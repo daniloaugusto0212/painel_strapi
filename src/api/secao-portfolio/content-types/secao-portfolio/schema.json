@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_portfolios",
+  "info": {
+    "singularName": "secao-portfolio",
+    "pluralName": "secao-portfolios",
+    "displayName": "secaoPortfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "listaPortfolio": {
+      "displayName": "listaPortfolio",
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.lista-portfolio"
+    },
+    "chamada": {
+      "type": "richtext"
+    },
+    "botaoDescricao": {
+      "type": "string"
+    },
+    "botaoUrl": {
+      "type": "string"
+    }
+  }
+}

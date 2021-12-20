@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_pagina_lista_sevicos",
+  "info": {
+    "displayName": "listaSevicos",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "icone": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pagina_lista_textos",
+  "info": {
+    "displayName": "listaTextos",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "paragrafo": {
+      "type": "text"
+    }
+  }
+}

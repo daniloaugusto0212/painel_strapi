@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_experiencias",
+  "info": {
+    "singularName": "secao-experiencia",
+    "pluralName": "secao-experiencias",
+    "displayName": "secaoExperiencia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "richtext"
+    },
+    "listaTexto": {
+      "displayName": "listaTextos",
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.lista-textos"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

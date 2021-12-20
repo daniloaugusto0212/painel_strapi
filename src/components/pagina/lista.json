@@ -7,21 +7,28 @@
   },
   "options": {},
   "attributes": {
-    "tituloLista": {
-      "type": "string"
+    "descricao": {
+      "type": "richtext"
     },
-    "subtituloLista": {
-      "type": "string"
-    },
-    "descricaoLista": {
-      "type": "text"
-    },
-    "imagemLista": {
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "descricaoBotao": {
+      "type": "string"
+    },
+    "urlBotao": {
+      "type": "string"
     }
   }
 }

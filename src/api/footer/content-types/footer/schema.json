@@ -4,20 +4,21 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footers",
-    "displayName": "footer"
+    "displayName": "footer",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
     "logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "endereco": {
       "type": "text"
@@ -27,6 +28,9 @@
       "type": "component",
       "repeatable": true,
       "component": "pagina.redes-sociais"
+    },
+    "email": {
+      "type": "email"
     }
   }
 }

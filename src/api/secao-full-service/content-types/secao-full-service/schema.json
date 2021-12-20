@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_full_services",
+  "info": {
+    "singularName": "secao-full-service",
+    "pluralName": "secao-full-services",
+    "displayName": "secaoFullService",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "richtext"
+    },
+    "subtitulo": {
+      "type": "richtext"
+    },
+    "listaServicos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pagina.lista"
+    }
+  }
+}
